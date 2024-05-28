@@ -7,34 +7,34 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo 主题 MemE</title>
-        <link>http://localhost:1313/</link>
-        <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
+        <title>blog site of luobai</title>
+        <link>http://hugo.yuanzhou.site/</link>
+        <description>这是我的博客。</description>
         <generator>Hugo 0.126.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
         
-            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+            <managingEditor>yuanzhou0110@qq.com (luobai)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+            <webMaster>yuanzhou0110@qq.com (luobai)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 28 May 2024 19:35:17 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 29 May 2024 05:42:42 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="http://hugo.yuanzhou.site/rss.xml" />
         
         
             <item>
-                <title>Nginx端口转发</title>
-                <link>http://localhost:1313/posts/nginx%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</link>
-                <guid isPermaLink="true">http://localhost:1313/posts/nginx%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</guid>
-                <pubDate>Tue, 28 May 2024 19:08:28 &#43;0800</pubDate>
+                <title>nginx端口转发</title>
+                <link>http://hugo.yuanzhou.site/posts/nginx-port-forward/</link>
+                <guid isPermaLink="true">http://hugo.yuanzhou.site/posts/nginx-port-forward/</guid>
+                <pubDate>Wed, 29 May 2024 05:04:21 &#43;0800</pubDate>
                 
-                    <author>reuixiy@gmail.com (reuixiy)</author>
+                    <author>yuanzhou0110@qq.com (luobai)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -90,7 +90,7 @@
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;listen&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;47.109.87.254&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;example.com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;8080&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;index&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;inedx.html&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -141,13 +141,13 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;47&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;.109.87.254&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;example.com&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;/data/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;proxy_pass&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;http://127.0.0.1/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;访问&lt;code&gt;http://47.109.87.254/data/example&lt;/code&gt;会转发到&lt;code&gt;http://127.0.0.1/example&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;访问&lt;code&gt;http://example.com/data/example&lt;/code&gt;会转发到&lt;code&gt;http://127.0.0.1/example&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;不加&#34;&gt;不加&lt;code&gt;/&lt;/code&gt;&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -157,13 +157,13 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;47&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;.109.87.254&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;server_name&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;example.com&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;location&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;/&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kn&#34;&gt;proxy_pass&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;http://127.0.0.1/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;访问&lt;code&gt;http://47.109.87.254/data/exmaple&lt;/code&gt;会转发到&lt;code&gt;http://127.0.0.1/data/example&lt;/code&gt;&lt;/p&gt;</description>
+&lt;/div&gt;&lt;p&gt;访问&lt;code&gt;http://example.com/data/exmaple&lt;/code&gt;会转发到&lt;code&gt;http://127.0.0.1/data/example&lt;/code&gt;&lt;/p&gt;</description>
                 
                 
                 
@@ -171,7 +171,95 @@
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="http://hugo.yuanzhou.site/categories/nginx/">nginx</category>
+                                
+                            
+                        
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://hugo.yuanzhou.site/tags/nginx/">nginx</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://hugo.yuanzhou.site/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/">配置文档</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>linux各目录意义</title>
+                <link>http://hugo.yuanzhou.site/posts/linux%E5%90%84%E7%9B%AE%E5%BD%95%E6%84%8F%E4%B9%89/</link>
+                <guid isPermaLink="true">http://hugo.yuanzhou.site/posts/linux%E5%90%84%E7%9B%AE%E5%BD%95%E6%84%8F%E4%B9%89/</guid>
+                <pubDate>Wed, 29 May 2024 03:41:31 &#43;0800</pubDate>
+                
+                    <author>yuanzhou0110@qq.com (luobai)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;!--more---&gt;
+&lt;h1 id=&#34;linux-各目录标准&#34;&gt;linux 各目录标准&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;/bin&lt;/strong&gt; - 二进制（Binary）：存放基本的系统二进制文件，如&lt;code&gt;ls&lt;/code&gt;、&lt;code&gt;cp&lt;/code&gt;、&lt;code&gt;mv&lt;/code&gt;等命令。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/boot&lt;/strong&gt; - 启动（Boot）：包含启动 Linux 内核和引导程序所需的文件，如&lt;code&gt;vmlinuz&lt;/code&gt;和&lt;code&gt;initrd&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/dev&lt;/strong&gt; - 设备（Device）：包含设备文件，这些文件作为系统硬件设备和软件接口。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/etc&lt;/strong&gt; - 主机特定的配置（Etc）：存放系统和应用程序的配置文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/home&lt;/strong&gt; - 用户主目录（Home）：用户的个人目录，每个用户都有自己的子目录。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/lib&lt;/strong&gt; - 库（Library）：包含系统使用的共享库文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/media&lt;/strong&gt; - 媒体（Media）：用于挂载可移动媒体设备，如 USB 驱动器、CD-ROMs 等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/mnt&lt;/strong&gt; - 挂载点（Mount）：通常用于临时挂载文件系统。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/opt&lt;/strong&gt; - 可选应用程序（Optional）：第三方应用程序安装的位置。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/proc&lt;/strong&gt; - 进程（Process）：虚拟文件系统，提供关于运行中的进程和内核的信息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/root&lt;/strong&gt; - 根用户的主目录：系统管理员（root 用户）的主目录。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/sbin&lt;/strong&gt; - 超级用户二进制（Superuser binary）：包含系统管理工具，通常只有 root 用户才能访问。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/srv&lt;/strong&gt; - 服务（Service）：包含系统服务的数据。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/tmp&lt;/strong&gt; - 临时文件（Temporary）：存放临时文件，通常在系统启动时清空。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/usr&lt;/strong&gt; - unix 系统资源（unix system resources ）：包含只读的用户相关应用程序和文件。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;/usr/bin&lt;/code&gt;：用户级的应用程序。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr/share&lt;/code&gt;：共享数据，如文档、图标等。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/usr/local&lt;/code&gt;：本地安装的软件，优先级高于&lt;code&gt;/usr&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/var&lt;/strong&gt; - 可变状态（Variable）：包含经常变化的文件，如日志文件、数据库文件等。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://hugo.yuanzhou.site/categories/linux/">linux</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://hugo.yuanzhou.site/tags/linux/">linux</category>
+                                
+                            
                         
                     
                 

@@ -2,17 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-28T19:23:13+08:00</lastmod>
+    <loc>http://hugo.yuanzhou.site/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/nginx%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91/</loc>
-    <lastmod>2024-05-28T19:22:15+08:00</lastmod>
+    <loc>http://hugo.yuanzhou.site/tags/nginx/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-28T19:22:15+08:00</lastmod>
+    <loc>http://hugo.yuanzhou.site/categories/nginx/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://hugo.yuanzhou.site/posts/nginx-port-forward/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://hugo.yuanzhou.site/posts/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</loc>
+    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/tags/linux/</loc>
+    <lastmod>2024-05-29T05:27:25+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/categories/linux/</loc>
+    <lastmod>2024-05-29T05:27:25+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/posts/linux%E5%90%84%E7%9B%AE%E5%BD%95%E6%84%8F%E4%B9%89/</loc>
+    <lastmod>2024-05-29T05:27:25+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/tags/</loc>
+    <lastmod>2024-05-29T04:26:06+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/archives/</loc>
+    <lastmod>2024-05-29T04:16:22+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/categories/</loc>
+    <lastmod>2024-05-29T05:02:39+08:00</lastmod>
   </url>
 </urlset>

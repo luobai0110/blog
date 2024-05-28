@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "typora"
+# newContentEditor =
 
 # i18n
 defaultContentLanguage = "zh-cn"
@@ -193,32 +193,38 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    # [[menu.main]]
-    #     pageref = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
     [[menu.main]]
-        pageref = "/posts/"
-        name = "文章"
+        url = "/"
+        name = "首页"
+        weight = 1
+        pre = "internal"
+        post = "home"
+    [[menu.main]]
+        url = "/archives/"
+        name = "归档"
         weight = 2
         pre = "internal"
         post = "archive"
+    # [[menu.main]]
+    #     url = "/posts/"
+    #     name = "文章"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "archive"
     [[menu.main]]
-        pageref = "/categories/"
+        url = "/categories/"
         name = "分类"
         weight = 3
         pre = "internal"
         post = "th"
     [[menu.main]]
-        pageref = "/tags/"
+        url = "/tags/"
         name = "标签"
         weight = 4
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        pageref = "/about/"
+        url = "/about/"
         name = "关于"
         weight = 5
         pre = "internal"
@@ -347,7 +353,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "这是我的博客。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -356,7 +362,7 @@ uglyURLs = false
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "reuixiy"
+    siteTwitter = ""
     # 说明：用于 Twitter Cards
 
 
@@ -398,10 +404,10 @@ uglyURLs = false
     displayPosts = true
 
     # 是否显示每一分类下的文章数
-    displayPostsCount = true
+    displayPostsCount = false
 
     # 设置一个非负数来限制每一分类下展示的文章数
-    limitPostsLimit = -1
+    limitPostsLimit = 5
 
 
     ######################################

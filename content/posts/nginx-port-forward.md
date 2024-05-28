@@ -1,7 +1,9 @@
----
-title: Nginx端口转发
-date: 2024-05-28T19:08:28+08:00
----
++++
+title = 'nginx端口转发'
+date = 2024-05-29T05:04:21+08:00
+tags = ['nginx','配置文档']
+categories = ['nginx']
++++
 
 <!--more-->
 
@@ -31,7 +33,7 @@ server{
 ```nginx
 server {
     listen 8080;
-    server_name 47.109.87.254:8080;
+    server_name example.com:8080;
     index inedx.html;
 
     location / {
@@ -64,21 +66,21 @@ server {
 ### 加`/`
 
 ```nginx
-server_name 47.109.87.254
+server_name example.com
 location /data/ {
     proxy_pass http://127.0.0.1/;
 }
 ```
 
-访问`http://47.109.87.254/data/example`会转发到`http://127.0.0.1/example`
+访问`http://example.com/data/example`会转发到`http://127.0.0.1/example`
 
 ### 不加`/`
 
 ```nginx
-server_name 47.109.87.254
+server_name example.com
 location / {
     proxy_pass http://127.0.0.1/;
 }
 ```
 
-访问`http://47.109.87.254/data/exmaple`会转发到`http://127.0.0.1/data/example`
+访问`http://example.com/data/exmaple`会转发到`http://127.0.0.1/data/example`
