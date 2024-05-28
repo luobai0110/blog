@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
+baseURL = "http://hugo.yuanzhou.site"
+title = "blog site of luobai"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "typora"
 
 # i18n
 defaultContentLanguage = "zh-cn"
@@ -100,15 +100,15 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "luobai"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "yuanzhou0110@qq.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "云无心以出岫，鸟倦飞而知还"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "http://hugo.yuanzhou.site"
     # 推特
     twitter = "reuixiy"
 
