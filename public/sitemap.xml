@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://hugo.yuanzhou.site/</loc>
-    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/tags/docker/</loc>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/posts/</loc>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/tags/wsl/</loc>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/categories/wsl/</loc>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
+  </url><url>
+    <loc>http://hugo.yuanzhou.site/posts/docker/wsl/wsl%E4%B8%8B%E5%AE%89%E8%A3%85%E4%BB%BB%E6%84%8F%E5%8F%91%E8%A1%8C%E7%89%88/</loc>
+    <lastmod>2024-05-30T02:25:08+08:00</lastmod>
   </url><url>
     <loc>http://hugo.yuanzhou.site/tags/nginx/</loc>
     <lastmod>2024-05-29T05:40:55+08:00</lastmod>
@@ -11,10 +26,7 @@
     <loc>http://hugo.yuanzhou.site/categories/nginx/</loc>
     <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.yuanzhou.site/posts/nginx-port-forward/</loc>
-    <lastmod>2024-05-29T05:40:55+08:00</lastmod>
-  </url><url>
-    <loc>http://hugo.yuanzhou.site/posts/</loc>
+    <loc>http://hugo.yuanzhou.site/posts/nginx/nginx-port-forward/</loc>
     <lastmod>2024-05-29T05:40:55+08:00</lastmod>
   </url><url>
     <loc>http://hugo.yuanzhou.site/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E6%A1%A3/</loc>
@@ -26,7 +38,7 @@
     <loc>http://hugo.yuanzhou.site/categories/linux/</loc>
     <lastmod>2024-05-29T05:27:25+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.yuanzhou.site/posts/linux%E5%90%84%E7%9B%AE%E5%BD%95%E6%84%8F%E4%B9%89/</loc>
+    <loc>http://hugo.yuanzhou.site/posts/linux/linux%E5%90%84%E7%9B%AE%E5%BD%95%E6%84%8F%E4%B9%89/</loc>
     <lastmod>2024-05-29T05:27:25+08:00</lastmod>
   </url><url>
     <loc>http://hugo.yuanzhou.site/tags/</loc>
